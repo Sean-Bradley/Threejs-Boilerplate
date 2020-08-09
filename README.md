@@ -1,4 +1,4 @@
-# Threejs-Boilerplate
+# Threejs Boilerplate
 
 A Threejs Boilerplate to aid in quick prototyping
 
@@ -27,6 +27,6 @@ npm start
 Visit https://github.com/Sean-Bradley/Three.js-TypeScript-Boilerplate for a Threejs TypeScript boilerplate containing many extra branches that demonstrate many examples of Threejs.
 
 > To help support this Threejs boilerplate, please take a moment to look at my official Threejs TypeScript course at <br/>  
-  <img src="docs/threejs-course-image-43x24.gif" style="margin-bottom:-4px"> [Three.js and TypeScript](https://www.udemy.com/course/threejs-tutorials/?referralCode=4C7E1DE91C3E42F69D0F)<br/>  
+  <img src="threejs-course-image.png" style="margin-bottom:-4px"> [Three.js and TypeScript](https://www.udemy.com/course/threejs-tutorials/?referralCode=4C7E1DE91C3E42F69D0F)<br/>  
   Discount Coupons for all my courses can be found at [https://sbcode.net/coupons](https://sbcode.net/coupons)
 
