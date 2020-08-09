@@ -1,10 +1,15 @@
 # Threejs Boilerplate
 
-A Threejs Boilerplate to aid in quick prototyping
+A Threejs Boilerplate to aid in quick prototyping. The master branch also uses ES6 import syntax.
 
-There are 2 branches
+When updating older Threejs projects, you may get a warning in the browser such as, 
+"As part of the transition to ES6 Modules, the files in 'examples/js' were deprecated in May 2020 (r177) and will be deleted in December 2020 (r114)."
 
-- before-es6-modules : Showing the way to use threejs before ES6 modules
+There are several steps involved in converting to use modules. This boilerplate was written to help you solve some of the issues you may have when converting your Threejs projects to use modules.
+
+In this boilerplate, there are 2 branches
+
+- before-es6-modules : Showing the way to use Threejs before ES6 modules
 - master : This same example, but converting it to use ES6 imports
 
 To install and start
