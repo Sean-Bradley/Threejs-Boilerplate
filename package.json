@@ -1,0 +1,27 @@
+{
+  "name": "threejs-boilerplate",
+  "version": "1.0.0",
+  "description": "A Threejs Boilerplate to aid in quick prototyping",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sean-Bradley/Threejs-Boilerplate.git"
+  },
+  "keywords": [
+    "threejs"
+  ],
+  "author": "Sean Bradley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sean-Bradley/Threejs-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Sean-Bradley/Threejs-Boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "three": "^0.119.1"
+  }
+}
