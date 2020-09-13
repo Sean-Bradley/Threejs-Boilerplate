@@ -25,19 +25,26 @@ npm install three@latest
 ```
 
 
+**Note** : This boilerplate contains 3 branches
 
-**Note** : This boilerplate contains 2 branches
+- master : The minimal boilerplate using ES6 imports and script type module
+- before-es6-modules : The example, but using older style script imports
+- water : An example based on the [Threejs Ocean example](https://threejs.org/examples/?q=water#webgl_shaders_ocean)
 
-  - before-es6-modules : Showing the way to use Threejs before ES6 modules
-  - master : This same example, but converting it to use ES6 imports
+To see the `before-es6-modules` branch
+```bash
+git checkout before-es6-modules
+npm install
+npm start
+```
 
-  To see the `before-es6-modules` branch
-  ```bash
-  git checkout before-es6-modules
-  npm install
-  npm start
-  ```
-
+To see the `water` branch
+```bash
+git checkout water
+npm install
+npm start
+```
+![Water Branch](docs/water.jpg)
 
 [View example on CodeSandbox.io](https://codesandbox.io/s/github/Sean-Bradley/Threejs-Boilerplate/tree/master/)
 
