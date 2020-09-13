@@ -7,11 +7,6 @@ When updating older Threejs projects, you may get a warning in the browser such 
 
 There are several steps involved in converting to use modules. This boilerplate was written to help you solve some of the issues you may have when converting your Threejs projects to use modules.
 
-In this boilerplate, there are 2 branches
-
-- before-es6-modules : Showing the way to use Threejs before ES6 modules
-- master : This same example, but converting it to use ES6 imports
-
 To install and start the master (ES6) branch
 
 ```bash
@@ -21,15 +16,28 @@ npm install
 npm start
 ```
 
-To see the `before-es6-modules` branch
-```bash
-git checkout before-es6-modules
-```
+Visit http://127.0.0.1:3000
+
 
 To update threejs
 ```
 npm install three@latest
 ```
+
+
+
+**Note** : This boilerplate contains 2 branches
+
+  - before-es6-modules : Showing the way to use Threejs before ES6 modules
+  - master : This same example, but converting it to use ES6 imports
+
+  To see the `before-es6-modules` branch
+  ```bash
+  git checkout before-es6-modules
+  npm install
+  npm start
+  ```
+
 
 [View example on CodeSandbox.io](https://codesandbox.io/s/github/Sean-Bradley/Threejs-Boilerplate/tree/master/)
 
