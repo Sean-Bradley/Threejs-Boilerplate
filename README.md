@@ -26,6 +26,11 @@ To see the `before-es6-modules` branch
 git checkout before-es6-modules
 ```
 
+To update threejs
+```
+npm install three@latest
+```
+
 [View example on CodeSandbox.io](https://codesandbox.io/s/github/Sean-Bradley/Threejs-Boilerplate/tree/master/)
 
 ### Video Tutorial About Importing Three.js as Module
