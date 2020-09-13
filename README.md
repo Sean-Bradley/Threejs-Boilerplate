@@ -12,13 +12,18 @@ In this boilerplate, there are 2 branches
 - before-es6-modules : Showing the way to use Threejs before ES6 modules
 - master : This same example, but converting it to use ES6 imports
 
-To install and start
+To install and start the master (ES6) branch
 
 ```bash
 git clone https://github.com/Sean-Bradley/Threejs-Boilerplate.git
 cd Threejs-Boilerplate
 npm install
 npm start
+```
+
+To see the `before-es6-modules` branch
+```bash
+git checkout before-es6-modules
 ```
 
 [View example on CodeSandbox.io](https://codesandbox.io/s/github/Sean-Bradley/Threejs-Boilerplate/tree/master/)
