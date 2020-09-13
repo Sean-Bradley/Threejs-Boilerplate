@@ -16,6 +16,7 @@ To install and start
 
 ```bash
 git clone https://github.com/Sean-Bradley/Threejs-Boilerplate.git
+cd Threejs-Boilerplate
 npm install
 npm start
 ```
