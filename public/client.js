@@ -2,20 +2,20 @@
  * Work based on the Three JS Ocean examples at 
  * https://threejs.org/examples/?q=water#webgl_shaders_ocean
  */
-import * as THREE from '/build/three.module.js';
+import * as THREE from './build/three.module.js';
 import {
     OrbitControls
-} from '/jsm/controls/OrbitControls.js';
+} from './jsm/controls/OrbitControls.js';
 import Stats from '/jsm/libs/stats.module.js';
 import {
     GUI
 } from './jsm/libs/dat.gui.module.js';
 import {
     Water
-} from '/jsm/objects/Water.js';
+} from './jsm/objects/Water.js';
 import {
     Sky
-} from '/jsm/objects/Sky.js';
+} from './jsm/objects/Sky.js';
 
 const scene = new THREE.Scene();
 
