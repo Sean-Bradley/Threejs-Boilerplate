@@ -3,19 +3,11 @@
  * https://threejs.org/examples/?q=water#webgl_shaders_ocean
  */
 import * as THREE from './build/three.module.js';
-import {
-    OrbitControls
-} from './jsm/controls/OrbitControls.js';
+import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import Stats from './jsm/libs/stats.module.js';
-import {
-    GUI
-} from './jsm/libs/dat.gui.module.js';
-import {
-    Water
-} from './jsm/objects/Water.js';
-import {
-    Sky
-} from './jsm/objects/Sky.js';
+import { GUI } from './jsm/libs/dat.gui.module.js';
+import { Water } from './jsm/objects/Water.js';
+import { Sky } from './jsm/objects/Sky.js';
 
 const scene = new THREE.Scene();
 
@@ -36,18 +28,18 @@ const sun = new THREE.Vector3();
 const waterGeometry = new THREE.PlaneBufferGeometry(10000, 10000);
 const water = new Water(
     waterGeometry, {
-        textureWidth: 512,
-        textureHeight: 512,
-        waterNormals: new THREE.TextureLoader().load('textures/waternormals.jpg', function (texture) {
-            texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
-        }),
-        alpha: 1.0,
-        sunDirection: new THREE.Vector3(),
-        sunColor: 0xffffff,
-        waterColor: 0x001e0f,
-        distortionScale: 3.7,
-        fog: scene.fog !== undefined
-    }
+    textureWidth: 512,
+    textureHeight: 512,
+    waterNormals: new THREE.TextureLoader().load('textures/waternormals.jpg', function (texture) {
+        texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
+    }),
+    alpha: 1.0,
+    sunDirection: new THREE.Vector3(),
+    sunColor: 0xffffff,
+    waterColor: 0x001e0f,
+    distortionScale: 3.7,
+    fog: scene.fog !== undefined
+}
 );
 water.rotation.x = -Math.PI / 2;
 
