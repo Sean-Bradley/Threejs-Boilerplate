@@ -52,8 +52,6 @@ npm start
 
 [![Importing Three.js as Module](https://img.youtube.com/vi/z9qtGHTqLqQ/0.jpg)](https://youtu.be/z9qtGHTqLqQ)
 
-
-
 ## Threejs TypeScript Course
 
 Visit https://github.com/Sean-Bradley/Three.js-TypeScript-Boilerplate for a Threejs TypeScript boilerplate containing many extra branches that demonstrate many examples of Threejs.
@@ -65,3 +63,6 @@ Visit https://github.com/Sean-Bradley/Three.js-TypeScript-Boilerplate for a Thre
   [Three.js and TypeScript](https://www.udemy.com/course/threejs-tutorials/?referralCode=4C7E1DE91C3E42F69D0F)<br/>  
   Discount Coupons for all my courses can be found at [https://sbcode.net/coupons](https://sbcode.net/coupons)
 
+## Relative Import References versus Module Specifiers
+
+If you ever see the error "Relative references must start with either "/", "./", or "../".", then that may also be related to using Module Specifiers in the client, when it was expecting a Relative Import Reference instead. You can read more about Relative Imports versus Module Specifiers at https://medium.com/threejs/module-specifiers-versus-relative-import-references-fd747980ba6f
