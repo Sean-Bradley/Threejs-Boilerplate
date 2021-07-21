@@ -2,7 +2,6 @@
   "name": "threejs-boilerplate",
   "version": "1.0.0",
   "description": "A Threejs Boilerplate to aid in quick prototyping",
-  "main": "index.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +11,9 @@
     "url": "git+https://github.com/Sean-Bradley/Threejs-Boilerplate.git"
   },
   "keywords": [
-    "threejs"
+    "threejs",
+    "boilerplate",
+    "threejs boilerplate"
   ],
   "author": "Sean Bradley",
   "license": "ISC",

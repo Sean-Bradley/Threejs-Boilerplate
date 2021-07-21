@@ -66,3 +66,22 @@ Visit https://github.com/Sean-Bradley/Three.js-TypeScript-Boilerplate for a Thre
 ## Relative Import References versus Module Specifiers
 
 If you ever see the error "Relative references must start with either "/", "./", or "../".", then that may also be related to using Module Specifiers in the client, when it was expecting a Relative Import Reference instead. You can read more about Relative Imports versus Module Specifiers at https://medium.com/threejs/module-specifiers-versus-relative-import-references-fd747980ba6f
+
+## Design Patterns In TypeScript
+
+To help support my projects, please check out my book titled **Design Patterns in TypeScript**.
+
+<img style="float:left; min-width:150px;" src="/docs/dp-in-typescript.jpg">
+
+&nbsp;<a href="https://www.amazon.com/dp/B0948BCH24"><img src="/docs/flag_us.gif">&nbsp; https://www.amazon.com/dp/B0948BCH24</a><br/>
+&nbsp;<a href="https://www.amazon.co.uk/dp/B0948BCH24"><img src="/docs/flag_uk.gif">&nbsp; https://www.amazon.co.uk/dp/B0948BCH24</a><br/>
+&nbsp;<a href="https://www.amazon.in/dp/B094716FD6"><img src="/docs/flag_in.gif">&nbsp; https://www.amazon.in/dp/B094716FD6</a><br/>
+&nbsp;<a href="https://www.amazon.de/dp/B0948BCH24"><img src="/docs/flag_de.gif">&nbsp; https://www.amazon.de/dp/B0948BCH24</a><br/>
+&nbsp;<a href="https://www.amazon.fr/dp/B0948BCH24"><img src="/docs/flag_fr.gif">&nbsp; https://www.amazon.fr/dp/B0948BCH24</a><br/>
+&nbsp;<a href="https://www.amazon.es/dp/B0948BCH24"><img src="/docs/flag_es.gif">&nbsp; https://www.amazon.es/dp/B0948BCH24</a><br/>
+&nbsp;<a href="https://www.amazon.it/dp/B0948BCH24"><img src="/docs/flag_it.gif">&nbsp; https://www.amazon.it/dp/B0948BCH24</a><br/>
+&nbsp;<a href="https://www.amazon.co.jp/dp/B0948BCH24"><img src="/docs/flag_jp.gif">&nbsp; https://www.amazon.co.jp/dp/B0948BCH24</a><br/>
+&nbsp;<a href="https://www.amazon.ca/dp/B0948BCH24"><img src="/docs/flag_ca.gif">&nbsp; https://www.amazon.ca/dp/B0948BCH24</a><br/>
+&nbsp;<a href="https://www.amazon.com.au/dp/B094716FD6"><img src="/docs/flag_au.gif">&nbsp; https://www.amazon.com.au/dp/B094716FD6</a>
+
+(ASIN : B0948BCH24 / B094716FD6)

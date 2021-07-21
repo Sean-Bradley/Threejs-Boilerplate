@@ -1,6 +1,7 @@
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import Stats from 'three/examples/jsm/libs/stats.module'
+import { GUI } from 'three/examples/jsm/libs/dat.gui.module'
 
 const scene = new THREE.Scene()
 
@@ -35,7 +36,17 @@ window.addEventListener(
 const stats = Stats()
 document.body.appendChild(stats.dom)
 
-var animate = function () {
+const gui = new GUI()
+const cubeFolder = gui.addFolder('Cube')
+cubeFolder.add(cube.scale, 'x', -5, 5)
+cubeFolder.add(cube.scale, 'y', -5, 5)
+cubeFolder.add(cube.scale, 'z', -5, 5)
+cubeFolder.open()
+const cameraFolder = gui.addFolder('Camera')
+cameraFolder.add(camera.position, 'z', 0, 10)
+cameraFolder.open()
+
+function animate() {
     requestAnimationFrame(animate)
     cube.rotation.x += 0.01
     cube.rotation.y += 0.01
