@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Three.js Tutorials by Sean Bradley : https://sbcode.net/threejs/</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            body {
+                overflow: hidden;
+                margin: 0px;
+            }
+        </style>
 
-<head>
-    <meta charset="utf-8">
-    <title>Three.js Tutorials by Sean Bradley : https://sbcode.net/threejs/</title>    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            overflow: hidden;
-            margin: 0px;
-        }
-    </style>
-    <script type="importmap">
-        {
-          "imports": {
-            "three": "./build/three.module.js",
-            "three/examples/jsm/controls/OrbitControls":"./jsm/controls/OrbitControls.js",
-            "three/examples/jsm/libs/stats.module":"./jsm/libs/stats.module.js",
-            "three/examples/jsm/libs/lil-gui.module.min":"./jsm/libs/lil-gui.module.min.js"
-          }
-        }
-    </script>
-</head>
+        <!-- Import maps polyfill -->
+        <!-- Remove this when import maps will be widely supported -->
+        <script
+            async
+            src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"
+        ></script>
 
-<body>
-    <script type="module" src="client.js"></script>
-</body>
+        <script type="importmap">
+            {
+                "imports": {
+                    "three": "./build/three.module.js"
+                }
+            }
+        </script>
+    </head>
 
+    <body>
+        <script type="module" src="client.js"></script>
+    </body>
 </html>
