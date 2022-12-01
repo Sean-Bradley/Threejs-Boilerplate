@@ -18,8 +18,6 @@ npm start
 
 Visit http://127.0.0.1:3000
 
-[View example on CodeSandbox.io](https://codesandbox.io/s/github/Sean-Bradley/Threejs-Boilerplate/tree/master/)
-
 To update threejs
 
 ```
@@ -54,8 +52,6 @@ npm start
 
 [![Importing Three.js as Module](https://img.youtube.com/vi/z9qtGHTqLqQ/0.jpg)](https://youtu.be/z9qtGHTqLqQ)
 
-
-
 ## Threejs Courses
 
 To help support this Threejs boilerplate and my other open source licensed repositories, please take a look at my official Threejs courses,
@@ -66,9 +62,9 @@ To help support this Threejs boilerplate and my other open source licensed repos
 
 and
 
-[React Three Fiber Course](https://www.udemy.com/course/react-three-fiber/?referralCode=338F7F03D9775AD115A7)
+[React Three Fiber](https://www.udemy.com/course/react-three-fiber/?referralCode=338F7F03D9775AD115A7)
 
-[![React Three Fiber Course](./docs/react-three-fiber-course-image.jpg)](https://www.udemy.com/course/react-three-fiber/?referralCode=338F7F03D9775AD115A7)
+[![React Three Fiber](./docs/react-three-fiber-course-image.jpg)](https://www.udemy.com/course/react-three-fiber/?referralCode=338F7F03D9775AD115A7)
 
 <!-- prettier-ignore -->
 > Note, discount Coupons for all my courses can be found at [https://sbcode.net/coupons](https://sbcode.net/coupons)
