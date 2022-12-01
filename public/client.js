@@ -25,7 +25,7 @@ controls.minDistance = 40.0;
 controls.maxDistance = 200.0;
 
 const sun = new THREE.Vector3();
-const waterGeometry = new THREE.PlaneBufferGeometry(10000, 10000);
+const waterGeometry = new THREE.PlaneGeometry(10000, 10000);
 const water = new Water(
     waterGeometry, {
     textureWidth: 512,
@@ -79,7 +79,7 @@ function updateSun() {
 
 updateSun();
 
-const geometry = new THREE.BoxBufferGeometry(30, 30, 30);
+const geometry = new THREE.BoxGeometry(30, 30, 30);
 const material = new THREE.MeshStandardMaterial({
     roughness: 0
 });
