@@ -3,7 +3,8 @@
 A Three.js Boilerplate to aid in quick prototyping.
 
 When updating older Three.js projects, you may get a warning in the browser such as,
-"As part of the transition to ES6 Modules, the files in 'examples/js' were deprecated in May 2020 (r117) and will be deleted in December 2020 (r124)."
+
+*"As part of the transition to ES6 Modules, the files in 'examples/js' were deprecated in May 2020 (r117) and will be deleted in December 2020 (r124)."*
 
 There are several steps involved in converting to use modules. This boilerplate was written to help you solve some issues that you may have when converting your Three.js projects to use modules.
 
@@ -81,11 +82,11 @@ To help support my projects, please check out my books.
 
 <img style="float:left; min-width:150px;" src="./docs/threejs-typescript-250.jpg">
 
-&nbsp;<a href="https://www.amazon.com/dp/B09GYTKRCH"><img src="./docs/flag_us.gif">&nbsp; https://www.amazon.com/dp/B09GYTKRCH</a><br/>
-&nbsp;<a href="https://www.amazon.co.uk/dp/B09GYTKRCH"><img src="./docs/flag_uk.gif">&nbsp; https://www.amazon.co.uk/dp/B09GYTKRCH</a><br/>
+&nbsp;<a href="https://www.amazon.com/dp/B09GYTKRCH"><img src="./docs/flag_us.gif">&nbsp; https://amzn.to/3FahROZ</a><br/>
+&nbsp;<a href="https://www.amazon.co.uk/dp/B09GYTKRCH"><img src="./docs/flag_uk.gif">&nbsp; https://amzn.to/3t62KTJ</a><br/>
 &nbsp;<a href="https://www.amazon.in/dp/B09GYTKRCH"><img src="./docs/flag_in.gif">&nbsp; https://www.amazon.in/dp/B09GYTKRCH</a><br/>
-&nbsp;<a href="https://www.amazon.de/dp/B09GYTKRCH"><img src="./docs/flag_de.gif">&nbsp; https://www.amazon.de/dp/B09GYTKRCH</a><br/>
-&nbsp;<a href="https://www.amazon.fr/dp/B09GYTKRCH"><img src="./docs/flag_fr.gif">&nbsp; https://www.amazon.fr/dp/B09GYTKRCH</a><br/>
+&nbsp;<a href="https://www.amazon.de/dp/B09GYTKRCH"><img src="./docs/flag_de.gif">&nbsp; https://amzn.to/3ZrLtk1</a><br/>
+&nbsp;<a href="https://www.amazon.fr/dp/B09GYTKRCH"><img src="./docs/flag_fr.gif">&nbsp; https://amzn.to/3PwIpOR</a><br/>
 &nbsp;<a href="https://www.amazon.es/dp/B09GYTKRCH"><img src="./docs/flag_es.gif">&nbsp; https://www.amazon.es/dp/B09GYTKRCH</a><br/>
 &nbsp;<a href="https://www.amazon.it/dp/B09GYTKRCH"><img src="./docs/flag_it.gif">&nbsp; https://www.amazon.it/dp/B09GYTKRCH</a><br/>
 &nbsp;<a href="https://www.amazon.nl/dp/B09GYTKRCH"><img src="./docs/flag_nl.gif">&nbsp; https://www.amazon.nl/dp/B09GYTKRCH</a><br/>
@@ -101,11 +102,11 @@ To help support my projects, please check out my books.
 
 <img style="float:left; min-width:150px;" src="./docs/dp_typescript_250.jpg">
 
-&nbsp;<a href="https://www.amazon.com/dp/B0948BCH24"><img src="./docs/flag_us.gif">&nbsp; https://www.amazon.com/dp/B0948BCH24</a><br/>
-&nbsp;<a href="https://www.amazon.co.uk/dp/B0948BCH24"><img src="./docs/flag_uk.gif">&nbsp; https://www.amazon.co.uk/dp/B0948BCH24</a><br/>
+&nbsp;<a href="https://www.amazon.com/dp/B0948BCH24"><img src="./docs/flag_us.gif">&nbsp; https://amzn.to/3Ruhu9d</a><br/>
+&nbsp;<a href="https://www.amazon.co.uk/dp/B0948BCH24"><img src="./docs/flag_uk.gif">&nbsp; https://amzn.to/3tdz5Ib</a><br/>
 &nbsp;<a href="https://www.amazon.in/dp/B094716FD6"><img src="./docs/flag_in.gif">&nbsp; https://www.amazon.in/dp/B094716FD6</a><br/>
-&nbsp;<a href="https://www.amazon.de/dp/B0948BCH24"><img src="./docs/flag_de.gif">&nbsp; https://www.amazon.de/dp/B0948BCH24</a><br/>
-&nbsp;<a href="https://www.amazon.fr/dp/B0948BCH24"><img src="./docs/flag_fr.gif">&nbsp; https://www.amazon.fr/dp/B0948BCH24</a><br/>
+&nbsp;<a href="https://www.amazon.de/dp/B0948BCH24"><img src="./docs/flag_de.gif">&nbsp; https://amzn.to/48r6oYq</a><br/>
+&nbsp;<a href="https://www.amazon.fr/dp/B0948BCH24"><img src="./docs/flag_fr.gif">&nbsp; https://amzn.to/3PxJGFo</a><br/>
 &nbsp;<a href="https://www.amazon.es/dp/B0948BCH24"><img src="./docs/flag_es.gif">&nbsp; https://www.amazon.es/dp/B0948BCH24</a><br/>
 &nbsp;<a href="https://www.amazon.it/dp/B0948BCH24"><img src="./docs/flag_it.gif">&nbsp; https://www.amazon.it/dp/B0948BCH24</a><br/>
 &nbsp;<a href="https://www.amazon.co.jp/dp/B0948BCH24"><img src=".docs/flag_jp.gif">&nbsp; https://www.amazon.co.jp/dp/B0948BCH24</a><br/>
